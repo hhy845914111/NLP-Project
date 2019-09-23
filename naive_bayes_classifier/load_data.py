@@ -4,7 +4,7 @@ Created by: Hanyuan Hu, netID: hh1924
 
 import os
 from itertools import groupby
-from configure import STOP_CHARS, STOP_WORDS
+from .configure import STOP_CHARS, STOP_WORDS
 
 
 def get_hist(lst, key=lambda x: x):
@@ -28,19 +28,20 @@ def str2word_bag(orig_str, stop_chars, stop_words, to_lower=False):
 
     word_lst = orig_str.split(" ")
 
-    for wd in this_stop_word_lst:
-        try:
-            word_lst.remove(wd)
-        except ValueError:
-            pass
-
     tt = get_hist(word_lst)
+
     try:
         tt.pop("")
     except KeyError:
         pass
-    finally:
-        return tt
+
+    for wd in this_stop_word_lst:
+        try:
+            tt.pop(wd)
+        except KeyError:
+            pass
+
+    return tt
 
 
 def str2word_bag2(orig_str: str, stop_chars, stop_words, to_lower):
@@ -58,26 +59,25 @@ def str2word_bag2(orig_str: str, stop_chars, stop_words, to_lower):
     this_stop_word_lst = this_stop_words.split(" ")
     del this_stop_words
 
-
-
     word_lst = orig_str.split(" ")
     tl = len(word_lst)
     for i in range(tl - 1):
         word_lst.append(word_lst[i] + word_lst[i+1])
 
-    for wd in this_stop_word_lst:
-        try:
-            word_lst.remove(wd)
-        except ValueError:
-            pass
-
     tt = get_hist(word_lst)
+
     try:
         tt.pop("")
     except KeyError:
         pass
-    finally:
-        return tt
+
+    for wd in this_stop_word_lst:
+        try:
+            tt.pop(wd)
+        except KeyError:
+            pass
+
+    return tt
 
 
 def load_data(stop_chars=STOP_CHARS, stop_words=STOP_WORDS, to_lower=False, str2wbg=str2word_bag):

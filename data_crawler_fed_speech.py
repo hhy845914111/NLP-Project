@@ -1,119 +1,368 @@
-#!/usr/bin/env python
+
 # coding: utf-8
 
 # In[1]:
 
 
-import requests as rq
-import bs4
-import re
-from tqdm import tqdm
-from time import sleep
-from random import random
+import matplotlib.pyplot as plt
+plt.rcParams["figure.figsize"] = 20, 10
 
 
 # In[2]:
 
 
-PREFIX = "https://www.federalreserve.gov"
-
-YEAR_LST2 = [f"{PREFIX}/newsevents/speech/{i}-speeches.htm" for i in range(2011, 2020)]
-YEAR_LST1 = [f"{PREFIX}/newsevents/speech/{i}speech.htm" for i in range(2006, 2011)]
-
-global log_failed_fed_reserve_fetch
-log_failed_fed_reserve_fetch = []
-
-def get_all(verbose=True):
-    rst_lst = []
-
-    itr = tqdm(YEAR_LST1 + YEAR_LST2) if verbose else YEAR_LST1 + YEAR_LST2
-    for this_year in itr:
-        response = rq.get(this_year)
-        sp_obj = bs4.BeautifulSoup(response.text, "html.parser")
-        all_article_obj_lst = sp_obj.find_all("a", {"href": re.compile("^/newsevents/speech/")})
-        
-        for this_article in all_article_obj_lst:
-            sleep(random())
-            
-            
-            this_href = this_article["href"]
-            this_title = this_article.text
-            this_date = re.findall("\d+", this_href)[0]
-            this_content = rq.get(f"{PREFIX}{this_href}")
-
-            print(this_date, this_title)
-                       
-
-            rst_lst.append((this_title, this_date,                            parse_one_article(this_content, title_= this_title, date_ = this_date)))
-            
-    if log_failed_fed_reserve_fetch:
-        print('\n\n\n',"Failed fetch found. See log_failed_fed_reserve_fetch.\n")
-            
-    return rst_lst
-
-
-def parse_one_article(response_obj, title_ = None, date_ = None):
-    
-    soup = bs4.BeautifulSoup(response_obj.text, 'html.parser')
-    paras = soup.find_all('p')
-    # find the index that real article starts
-    start = 0
-    for i in range(len(paras)):
-        if "<p class" in str(paras[i]) and "<p class" in str(paras[i+1]) and "<p class" not in str(paras[i+2]):
-            start = i+2
-            break
-
-    paras_ = paras[start:]
-    
-    #find the end of article
-    end = 0
-
-    end_signals = ["<p><strong>Footnotes", "<p>\n<strong>Footnotes","<p><strong>References",                    "<p>\n<strong>References","<p><a","<p>\n<a","<p><b>Footnotes","<p>\n<b>Footnotes",                  "<p><b>References","<p>\n<b>References"]
-
-    for i in range(len(paras_)):
-        for end_sig in end_signals:
-            if (end_sig in str(paras_[i])):
-                #print("stop signal activated:", end_sig)
-                end = i
-                break
-        if end != 0:
-            break
-
-        if i>len(paras_)-2:
-            end = i-1
-            #print("boundary control activated")
-            break
-
-    article = ''
-    for item in paras_[:end]:
-        article = article + " " + item.text
-    article = article[1:] # delete the first space
-    
-    
-    if article == '':
-        log_failed_fed_reserve_fetch.append((date_, title_))
-        
-    #print(article)    
-    
-    return article
+from naive_bayes_classifier.load_data import str2word_bag
+from naive_bayes_classifier.configure import *
 
 
 # In[3]:
 
 
-if __name__ == "__main__":
-    rst = get_all()
-    print(1)
+from naive_bayes_classifier.back_test_utils import *
 
 
 # In[4]:
 
 
-log_failed_fed_reserve_fetch
+from sklearn.metrics import precision_score, f1_score, accuracy_score, recall_score
+
+
+# In[5]:
+
+
+from sklearn.naive_bayes import MultinomialNB
+
+
+# In[6]:
+
+
+from sklearn.ensemble import ExtraTreesClassifier
+
+
+# In[7]:
+
+
+import pickle
+import pandas as pd
+import numpy as np
+
+
+# In[8]:
+
+
+with open("rst.pkl", "rb") as fp:
+    rst_lst = pickle.load(fp)
+
+
+# In[9]:
+
+
+Y_FILE = "./USTREASURY-REALYIELD.csv"
+
+
+# In[10]:
+
+
+rate_se = pd.read_csv(Y_FILE, index_col=0)["10 YR"]
+rate_se.index = pd.DatetimeIndex(rate_se.index)
+rate_se = rate_se.sort_index()
+
+
+# In[11]:
+
+
+rate_se.plot();
+
+
+# ## Overall reval profile 
+
+# Reval/preval analysis is a widely used tools in market impact analysis. It is defined as the price movement before and after a certain incident happens in the market. In this case study, we first look at 5-year treasury yield movement before and after the Fed speech as a whole. Then we might want to generate features through the text and then to look at if the reval of differnet groups have diverged profiles.
+
+# In[12]:
+
+
+def get_reval(prev_n=10, rev_n=10):
+    y_lst = []
+
+    for ctt in rst_lst:
+        prev = rate_se[rate_se.index <= pd.to_datetime(ctt[1])][-prev_n:].values
+        rev = rate_se[rate_se.index > pd.to_datetime(ctt[1])][:rev_n].values
+        this = prev[-1]
+        
+        tt = np.log(np.hstack((prev, rev)) / this)
+        tt = np.where((np.abs(tt) == np.inf), 0.0, tt)
+        tt = np.nan_to_num(tt)
+        
+        y_lst.append(tt)
+    return y_lst
+
+
+def evaluate(y_true, y_pred):
+    return accuracy_score(y_true, y_pred), precision_score(y_true, y_pred, average="weighted"), recall_score(y_true, y_pred, average="weighted"), f1_score(y_true, y_pred, average="weighted")
+
+
+
+# In[13]:
+
+
+rev_lst = get_reval()
+
+
+# In[14]:
+
+
+tt = np.vstack(rev_lst)
+
+
+# In[15]:
+
+
+plt.plot(tt.T);
+
+
+# ## Roughly look at the distribution of revals
+
+# In[16]:
+
+
+import seaborn as sb
+
+
+# In[17]:
+
+
+sb.distplot(tt[:, 10]);
+
+
+# In[18]:
+
+
+sb.distplot(tt[:, 14]);
+
+
+# In[19]:
+
+
+sb.distplot(tt[:, 19]);
+
+
+# In[20]:
+
+
+y_raw = tt[:, 14]
+
+
+# In[21]:
+
+
+p = 0.2
+
+
+# In[22]:
+
+
+y_neg = (y_raw < np.quantile(y_raw, p)).astype(np.int)
+
+
+# In[23]:
+
+
+y_pos = (y_raw > np.quantile(y_raw, 1-p)).astype(np.int)
+
+
+# In[24]:
+
+
+np.sum(y_neg) / len(y_raw), np.sum(y_pos) / len(y_raw)
+
+
+# In[25]:
+
+
+benchmark_change = np.log(rate_se).diff().dropna().values
+
+
+# In[26]:
+
+
+y_benchmark_neg = (benchmark_change < np.quantile(y_raw, p)).astype(np.int)
+
+
+# In[27]:
+
+
+y_benchmark_pos = (benchmark_change > np.quantile(y_raw, 1-p)).astype(np.int)
+
+
+# In[28]:
+
+
+np.sum(y_benchmark_neg) / len(benchmark_change), np.sum(y_benchmark_pos) / len(benchmark_change)
+
+
+# In[29]:
+
+
+X_dct = [str2word_bag(itm[2], STOP_CHARS, STOP_WORDS, to_lower=True) for itm in rst_lst]
+
+
+# In[30]:
+
+
+X = pd.DataFrame(X_dct).fillna(0)
+
+
+# In[ ]:
+
+
+y = np.zeros_like(y_raw) - y_neg + y_pos
+
+
+# In[ ]:
+
+
+y_pred4 = rolling_test(ExtraTreesClassifier(), X.values, y, 100)
+
+
+# In[ ]:
+
+
+evaluate(y, y_pred4)
+
+
+# In[ ]:
+
+
+model = MultinomialNB()
+
+
+# In[ ]:
+
+
+model.fit(X, y)
+
+
+# In[ ]:
+
+
+y_pred = model.predict(X)
 
 
 # In[ ]:
 
 
 
+# In[ ]:
 
+
+evaluate(y, y_pred)
+
+
+# In[ ]:
+
+
+plt.plot(np.cumsum(y_pred * y_raw))
+
+
+# In[ ]:
+
+
+model.feature_count_
+
+
+# In[ ]:
+
+
+prob = model.feature_log_prob_
+
+
+# In[ ]:
+
+
+prob.shape
+
+
+# In[ ]:
+
+
+prob_df = pd.DataFrame(np.exp(prob), index=[-1, 0, 1], columns=X.columns).T
+
+
+# In[ ]:
+
+
+dist = prob_df.std(axis=1).sort_values(ascending=False)
+
+
+# In[ ]:
+
+
+dist
+
+
+# In[ ]:
+
+
+from sklearn.svm import SVC
+
+
+# In[ ]:
+
+
+model2 = SVC()
+
+
+# In[ ]:
+
+
+model2.fit(X, y)
+
+
+# In[ ]:
+
+
+y_pred2 = model2.predict(X)
+
+
+# In[ ]:
+
+
+evaluate(y, y_pred2)
+
+
+# In[ ]:
+
+
+model3 = ExtraTreesClassifier()
+
+
+# In[ ]:
+
+
+model3.fit(X[:700], y[:700])
+
+
+# In[ ]:
+
+
+y_pred3 = model3.predict(X[700:])
+
+
+# In[ ]:
+
+
+evaluate(y[700:], y_pred3)
+
+
+# ## TODO: Only use these as features.
+
+# ## 1. Generate word bags using similar codes in naive_bayes_classifier
+
+# ## 2. The reval characterisctic is captured by n day rate movement, we first set n == 1
+
+# ## 3. Fit a naive bayes model to learn about which word/words could have the most impact of the rate.
+
+# ## Future work
+# 1. Use title information and treat title worlds differently as those in the body of the article
+# 2. Cross-validation over time
+# 3. Word2Vec

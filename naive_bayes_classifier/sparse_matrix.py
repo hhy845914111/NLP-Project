@@ -3,12 +3,13 @@ Created by: Hanyuan Hu, netID: hh1924
 """
 
 from functools import reduce
+from scipy.sparse import csr_matrix
 
 
 class SparseMatrix(object):
 
     def __init__(self, data_dct, dim, zero_value=0):
-        self._data_dct = data_dct
+        self.data_dct = data_dct
         self._zero_value = zero_value
         self._dim = dim
 
@@ -17,7 +18,7 @@ class SparseMatrix(object):
             raise KeyError("Dim mismatch")
 
         try:
-            return reduce(lambda x, y: x[y], (self._data_dct, *item))
+            return reduce(lambda x, y: x[y], (self.data_dct, *item))
         except KeyError:
             return self._zero_value
 
@@ -25,7 +26,7 @@ class SparseMatrix(object):
         if len(k) != self._dim:
             raise KeyError("Dim mismatch")
 
-        tmp = self._data_dct
+        tmp = self.data_dct
 
         for i in k[:-1]:
             try:

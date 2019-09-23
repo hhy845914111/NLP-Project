@@ -2,7 +2,7 @@
 Created by: Hanyuan Hu, netID: hh1924
 """
 
-from sparse_matrix import SparseMatrix
+from .sparse_matrix import SparseMatrix
 from tqdm import tqdm
 from math import log
 from itertools import groupby
@@ -53,6 +53,20 @@ class MultinomialNB(object):
 
         return rst_lst
 
+    def get_summary(self, top_n=5):
+        data_dct = self._p_c_x.data_dct
+
+        rst_lst = []
+        for k in data_dct:
+            prob_lst = []
+            for char in data_dct[k]:
+                prob_lst.append((char, sum(data_dct[k][char].values())))
+
+            tt = sorted(prob_lst, key=lambda x: x[1], reverse=True)
+            rst_lst.append((k, tt[:top_n]))
+
+        return rst_lst
+
 
 class MultinomialNBWithAdjust(MultinomialNB):
 
@@ -92,7 +106,7 @@ class MultinomialNBWithAdjust(MultinomialNB):
 
 
 if __name__ == "__main__":
-    from load_data import load_data
+    from .load_data import load_data
     X_econ, y_econ, _ = load_data()
     model = MultinomialNB()
     model.fit(X_econ, y_econ)
