@@ -46,5 +46,5 @@ def get_y(rev_ar, lag, p):
 
 
 def get_alpha_decay(reval_ar, y):
-    return np.sum(reval_ar * y.reshape(-1, 1), axis=0) / np.sum(np.abs(y))
+    return np.mean(reval_ar * (y.reshape(-1, 1)), axis=0)
 

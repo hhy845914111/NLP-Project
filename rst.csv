@@ -1,0 +1,775 @@
+,date,name,y_pred,y_true
+0,20061215,The Chinese Economy: Progress and Challenges,0.0,0.0
+1,20061201,Monetary Policy and Uncertainty,0.0,0.0
+2,20061201,Welcoming remarks,0.0,0.0
+3,20061130,A U.S. Perspective on Basel II Implementation,0.0,0.0
+4,20061128,The Economic Outlook,0.0,-1.0
+5,20061121,Financial Markets and the Federal Reserve,0.0,0.0
+6,20061116,The Conquest of Worldwide Inflation: Currency Competition and Its Implications for Interest Rates and the Yield Curve,0.0,0.0
+7,20061110,Monetary Aggregates and Monetary Policy at the Federal Reserve: A Historical Perspective,0.0,0.0
+8,20061103,The Evolving Role of the Federal Reserve Banks,0.0,-1.0
+9,20061102,The Economic Outlook,0.0,0.0
+10,20061101,Community Development Financial Institutions: Promoting Economic Growth and Opportunity,0.0,0.0
+11,20061017,A Supervisory Perspective on Enterprise Risk Management,0.0,0.0
+12,20061016,Bank Regulation and Supervision: Balancing Benefits and Costs,0.0,0.0
+13,20061012,Globalization: A Force for Good?,0.0,0.0
+14,20061011,A U.S. Supervisor's Perspective on Current Banking Issues,0.0,0.0
+15,20061004,Economic Outlook,0.0,1.0
+16,20061004,The Coming Demographic Transition: Will We Treat Future Generations Fairly?,0.0,1.0
+17,20060927,What Drives Productivity Growth?  Implications for the Economy and Prospects for the Future,0.0,0.0
+18,20060911,Evolution of Retail Payments and the Role of the Federal Reserve,0.0,0.0
+19,20060901,Remarks,0.0,1.0
+20,20060831,Productivity,0.0,0.0
+21,20060825,Global Economic Integration: What's New and What's Not?,0.0,0.0
+22,20060718,Corporate Cash Balances and Economic Activity,0.0,0.0
+23,20060706,Reflections on Globalization and Policies,0.0,0.0
+24,20060704,Addressing Challenges Raised by Basel II Implementation,0.0,0.0
+25,20060616,Why Are Yield Curves So Flat and Long Rates So Low Globally?,0.0,0.0
+26,20060616,The Effects of Globalization on Inflation and Their Implications for Monetary Policy,0.0,0.0
+27,20060615,Energy and the Economy,0.0,0.0
+28,20060615,Why Are Yield Curves So Flat and Long Rates So Low Globally?,0.0,0.0
+29,20060614,A Supervisor's Perspective on Mortgage Markets and Mortgage Lending Practices,0.0,0.0
+30,20060613, Increasing Economic Opportunity: Challenges and Strategies,0.0,1.0
+31,20060612,Modern Risk Management and Banking Supervision,0.0,0.0
+32,20060612,A Supervisorâs Perspective on Enterprise Risk Management,0.0,0.0
+33,20060612,What Are Examiners Looking for When They Examine Banks for Compliance?,0.0,0.0
+34,20060609,Commencement address,0.0,0.0
+35,20060606,Challenges of Conducting Effective Risk Management in Community Banks,0.0,0.0
+36,20060605,Panel Discussion: Comments on the Outlook for the U.S. Economy and Monetary Policy,0.0,0.0
+37,20060525,Community Development and the Bigger Picture,0.0,0.0
+38,20060524,Innovative Statistics for a Dynamic Economy,0.0,0.0
+39,20060518,The Evolving Nature of the Financial System: Financial Crises and the Role of the Central Bank,0.0,0.0
+40,20060518,Basel II: Its Promise and Its Challenges,0.0,0.0
+41,20060516,Hedge Funds and Systemic Risk,0.0,0.0
+42,20060516,Compliance Risk Management in a Diversified Environment,0.0,0.0
+43,20060516,Implementing Basel II: Choices and Challenges,0.0,0.0
+44,20060511,Investing in Payment Innovations:  A Federal Reserve Perspective,0.0,0.0
+45,20060504,"Supervisory Perspective on Current Bank Capital, Market Risk, and Loan Product Issues",0.0,0.0
+46,20060503,Community Revitalization: Lessons from Anacostia,0.0,0.0
+47,20060428,A Bank Supervisor's Perspective on Enterprise Risk Management,0.0,0.0
+48,20060427,Business Capital Spending,0.0,0.0
+49,20060420,By the Numbers: Data and Measurement in Community Economic Development,0.0,0.0
+50,20060417,Thoughts on Financial Stability and Central Banking,0.0,0.0
+51,20060413,Update on the U.S. economy,0.0,-1.0
+52,20060413,Economic outlook,0.0,-1.0
+53,20060410,A Risk-Management Perspective on Recent Regulatory Proposals,0.0,0.0
+54,20060410,Enterprise-Wide Compliance-Risk Management,0.0,0.0
+55,20060406,The Effect of Removing Geographic Restrictions on Banking in the United States: Lessons for Europe,0.0,0.0
+56,20060405,Financial Education and the National Jump$tart Coalition Survey,0.0,0.0
+57,20060403,"Central Counterparty Clearing: History, Innovation, and Regulation",0.0,0.0
+58,20060331,An Update on Regulatory Issues,0.0,0.0
+59,20060331,Financial Regulation: Seeking the Middle Way,0.0,0.0
+60,20060329,Sound Capital and Risk Management,0.0,0.0
+61,20060320,Reflections on the Yield Curve and Monetary Policy,0.0,1.0
+62,20060316,Monetary policy and asset prices,0.0,1.0
+63,20060313,Are Banks Still Special?,0.0,-1.0
+64,20060310,Remarks,0.0,0.0
+65,20060308,Community Banking and Community Bank Supervision ,0.0,0.0
+66,20060303,Economic Outlook for the United States,0.0,1.0
+67,20060224,The Benefits of Price Stability,0.0,0.0
+68,20060224,The Importance of Education,0.0,0.0
+69,20060223,"Globalization, Insurers, and Regulators: Shared Challenges Call for Collaborative Solutions",0.0,0.0
+70,20060206,Remarks at ceremonial swearing-in by President Bush,0.0,0.0
+71,20060202,The Continuous Challenges of Risk Management,0.0,0.0
+72,20060118,Productivity and Economic Outlook,0.0,0.0
+73,20071130,"Innovation, Information, and Regulation in Financial Markets ",0.0,0.0
+74,20071129,National and regional economic overview,0.0,0.0
+75,20071129,The Federal Reserveâs Enhanced Communication Strategy and the Science of Monetary Policy ,0.0,0.0
+76,20071128,Financial Markets and Central Banking,0.0,-1.0
+77,20071114,Federal Reserve Communications,0.0,-1.0
+78,20071113,Implementing Basel II in the United States,0.0,0.0
+79,20071107,The End of History?,0.0,0.0
+80,20071106,Microfinance in the United States,0.0,-1.0
+81,20071105,The Challenges Facing Subprime Mortgage Borrowers,0.0,0.0
+82,20071105,Financial Instability and Monetary Policy,0.0,0.0
+83,20071026,Financial Instability and the Federal Reserve as a Liquidity Provider,0.0,1.0
+84,20071022,Recent Events in Financial Markets,0.0,0.0
+85,20071020,Headline versus Core Inflation in the Conduct of Monetary Policy,0.0,0.0
+86,20071019,Monetary Policy under Uncertainty,0.0,0.0
+87,20071015,The Recent Financial Turmoil and its Economic and Policy Consequences,0.0,-1.0
+88,20071012,John Taylor Rules,0.0,-1.0
+89,20071012,Opening remarks,0.0,-1.0
+90,20071011,"Markets, Financial Institutions, and Consumers: The Roles of the Federal Reserve",0.0,0.0
+91,20071005,Financial Stability and the Federal Reserve,0.0,0.0
+92,20071004, Economic Outlook,0.0,1.0
+93,20070928,Systemic Risk and the International Lender of Last Resort ,0.0,0.0
+94,20070927,"Globalization, Macroeconomic Performance, and Monetary Policy",0.0,0.0
+95,20070924,Education and Economic Competitiveness,0.0,0.0
+96,20070921,Financial Market Developments,0.0,0.0
+97,20070921,Success and Failure of Monetary Policy since the 1950s,0.0,0.0
+98,20070911,Global Imbalances:  Recent Developments and Prospects,0.0,0.0
+99,20070910,Outlook and Risks for the U.S. Economy,0.0,1.0
+100,20070906,Analyzing and Assessing Banking Crises,0.0,-1.0
+101,20070831,"Housing, Housing Finance, and Monetary Policy",0.0,0.0
+102,20070801,Federal Reserve Initiatives to Support Minority-Owned Institutions and Expand Consumer Protection,0.0,0.0
+103,20070712,Basel II Implementation in the United States,0.0,0.0
+104,20070710,Inflation Expectations and Inflation Forecasting,0.0,0.0
+105,20070623,Globalization and Financial Development,0.0,0.0
+106,20070615,The Financial Accelerator and the Credit Channel,0.0,0.0
+107,20070614,Encouraging Responsible Mortgage Lending: Prospective Rulemaking Initiatives,0.0,-1.0
+108,20070605,Financial Intermediation and Complete Markets ,0.0,0.0
+109,20070605,The Housing Market and Subprime Lending,0.0,0.0
+110,20070601,Outlook and Risks for the U.S. Economy,0.0,0.0
+111,20070524,Estimating Potential Output,0.0,0.0
+112,20070523,Creating More Effective Consumer Disclosures,0.0,0.0
+113,20070522,Recognizing Leadership,0.0,0.0
+114,20070517,The Subprime Mortgage Market,0.0,0.0
+115,20070516,Financial stability and policy issues,0.0,0.0
+116,20070516,Globalization and Capital Markets: Implications for Inflation and the Yield Curve,0.0,0.0
+117,20070515,International Capital Flows and the Emerging-Market Economies,0.0,1.0
+118,20070515,Regulation and Financial Innovation,0.0,1.0
+119,20070510,The Future of Payments: Challenges and Opportunities,0.0,1.0
+120,20070501,Embracing the Challenge of Free Trade: Competing and Prospering in a Global Economy,0.0,0.0
+121,20070426,Globalization and Financial Development,0.0,0.0
+122,20070425,Welcoming remarks,0.0,0.0
+123,20070420,The U.S. Economic Outlook,0.0,0.0
+124,20070411,Financial Regulation and the Invisible Hand,0.0,0.0
+125,20070410,Monetary Policy and the Dual Mandate,0.0,0.0
+126,20070330,The Community Reinvestment Act: Its Evolution and New Challenges,0.0,0.0
+127,20070323,Inflation Dynamics,0.0,0.0
+128,20070322,"Asset-Pricing Puzzles, Credit Risk, and Credit Derivatives",0.0,0.0
+129,20070322,Recent Innovations in Credit Markets,0.0,0.0
+130,20070312,The Changing Dynamics of Inflation,0.0,0.0
+131,20070309,Liquidity and monetary policy,0.0,0.0
+132,20070309,"Comments on âUnderstanding the Evolving Inflation Processâ by Cecchetti, Hooper, Kasman, Schoenholtz, and Watson",0.0,0.0
+133,20070306,"GSE Portfolios, Systemic Risk, and Affordable Housing",0.0,0.0
+134,20070305,Market Liquidity: Definitions and Implications,0.0,0.0
+135,20070305,Community Banks: The Continuing Importance of Relationship Finance,0.0,0.0
+136,20070302,Globalization and Monetary Policy,0.0,0.0
+137,20070226,An Update on Basel II Implementation in the United States,0.0,0.0
+138,20070221,Financial Stability: Preventing and Managing Crises,0.0,0.0
+139,20070206,The Level and Distribution of Economic Well-Being,0.0,0.0
+140,20070118,Economic Outlook and Developments in Mortgage Markets ,0.0,0.0
+141,20070117,Enterprise Risk Management and Mortgage Lending,0.0,0.0
+142,20070111,Enterprise Risk Management and Mortgage Lending,0.0,0.0
+143,20070108,The Economic Outlook ,0.0,0.0
+144,20070105,Central Banking and Bank Supervision in the United States,0.0,0.0
+145,20081208,Restoring Financial Intermediation by Banks: The Role of Regulators,0.0,-1.0
+146,20081208,Assessing the Potential for Instability in Financial Markets,0.0,-1.0
+147,20081204,Improving the Infrastructure for Non-Agency Mortgage-Backed Securities,0.0,1.0
+148,20081204,"Housing, Mortgage Markets, and Foreclosures",0.0,1.0
+149,20081203,The Community Reinvestment Act and the Recent Mortgage Crisis,0.0,1.0
+150,20081201,Federal Reserve Policies in the Financial Crisis,0.0,-1.0
+151,20081119,Monetary Policy and Asset Prices Revisited,0.0,1.0
+152,20081214,Policy Coordination Among Central Banks ,0.0,-1.0
+153,20081112,Productivity and Innovation in Financial Services ,0.0,0.0
+154,20081106,The Promise and Peril of the New Financial Architecture,0.0,0.0
+155,20081031,The Future of Mortgage Finance in the United States ,0.0,-1.0
+156,20081020,Strategic Risk Management in an Interconnected World,0.0,0.0
+157,20081015,Economic Outlook,0.0,-1.0
+158,20081015,Stabilizing the Financial Markets and the Economy,0.0,-1.0
+159,20081014,Remarks,0.0,-1.0
+160,20081007,Current Economic and Financial Conditions,0.0,1.0
+161,20080911,"Comments on âFinancial Regulation in a System Context,â âBeyond Leveraged Losses: The Balance Sheet Effects of the Home Price Downturn,â and âThe Central Role of House Prices in the Financial Crisis: How Will the Market Clear?â",0.0,1.0
+162,20080909,Remarks on historically black colleges and universities,0.0,1.0
+163,20080901,The United States in the International Financial System:  A Separate Reality? Resolving Two Puzzles in the International Accounts,0.0,0.0
+164,20080822,Reducing Systemic Risk,0.0,-1.0
+165,20080728,Remarks on covered bond framework,0.0,0.0
+166,20080728,Whither Federal Reserve Communications,0.0,0.0
+167,20080717,Federal Reserve's Initiatives to Support Minority-Owned Institutions and Expand Consumer Protection,0.0,1.0
+168,20080708,Financial Regulation and Financial Stability,0.0,0.0
+169,20080702,Global Financial Turmoil and the World Economy,0.0,0.0
+170,20080626,Global Economic Integration and Decoupling,0.0,-1.0
+171,20080616,Challenges for Health-Care Reform,0.0,0.0
+172,20080612,Dedication of the New Federal Reserve Bank of Kansas City Building,0.0,0.0
+173,20080611,Protecting Consumers in the Credit Marketplace,0.0,1.0
+174,20080611,Lessons for Central Bankers from a Phillips Curve Framework,0.0,1.0
+175,20080609,Outstanding Issues in the Analysis of Inflation,0.0,1.0
+176,20080606,Financial Market Developments and Credit Conditions,0.0,1.0
+177,20080604,Remarks on Class Day 2008,0.0,0.0
+178,20080603,Remarks on the economic outlook,0.0,0.0
+179,20080529,Money Markets and Financial Stability,0.0,-1.0
+180,20080513,Liquidity Provision by the Federal Reserve,0.0,-1.0
+181,20080522,Prospects for Recovery and Repair of Mortgage Markets ,0.0,1.0
+182,20080521,The Federal Funds Rate in Extraordinary Times,0.0,1.0
+183,20080520,The Economic Outlook,0.0,1.0
+184,20080515,How Should We Respond to Asset Price Bubbles? ,0.0,-1.0
+185,20080515,Risk Management in Financial Institutions,0.0,-1.0
+186,20080514,Risk Management and Basel II,0.0,-1.0
+187,20080513,Liquidity Provision by the Federal Reserve,0.0,-1.0
+188,20080507,Mitigating the Impact of Foreclosures on Neighborhoods,0.0,-1.0
+189,20080505,Mortgage Delinquencies and Foreclosures,0.0,-1.0
+190,20080421,Developing Sustainable Capital for Community Investments,0.0,1.0
+191,20080417,The Changing Business of Banking: Implications for Financial Stability and Lessons from Recent Market Turmoil,0.0,0.0
+192,20080414,Financial Market Turmoil and the Federal Reserve: The Plot Thickens,0.0,1.0
+193,20080410,Addressing Weaknesses in the Global Financial Markets: The Report of the President's Working Group on Financial Markets,0.0,0.0
+194,20080409,The Importance of Financial Education and the National Jump$tart Coalition Survey,0.0,0.0
+195,20080407,Dedication remarks,0.0,0.0
+196,20080404,Global Economic and Financial Challenges: Implications for Latin America,0.0,0.0
+197,20080403,Central Bank Commitment and Communication,0.0,0.0
+198,20080327,"Comfort Zones, Shmumfort Zones",0.0,0.0
+199,20080327,Protecting Homeowners and Sustaining Homeownership,0.0,0.0
+200,20080314,Fostering Sustainable Homeownership,0.0,0.0
+201,20080311,The Importance of Fundamentals in Risk Management,0.0,-1.0
+202,20080307,Exchange Rate Pass-Through and Monetary Policy,0.0,-1.0
+203,20080307,Implications of Globalization for the Conduct of Monetary Policy,0.0,-1.0
+204,20080304,Outlook and Risks for the U.S. Economy,0.0,-1.0
+205,20080304,Reducing Preventable Mortgage Foreclosures,0.0,-1.0
+206,20080303,Liquidity-Risk Management in the Business of Banking,0.0,0.0
+207,20080229,"On ""Leveraged Losses: Lessons from the Mortgage Meltdown""",0.0,1.0
+208,20080227,The Importance of Economic Education and Financial Literacy,0.0,-1.0
+209,20080226,The U.S. Economy and Monetary Policy,0.0,-1.0
+210,20080225,Does Stabilizing Inflation Contribute to Stabilizing Economic Activity?,0.0,-1.0
+211,20080225,Improving Risk Management in Light of Recent Market Events,0.0,-1.0
+212,20080215,The Federal Reserve's Tools for Responding to Financial Disruptions,0.0,0.0
+213,20080204,Protecting Homeowners and Sustaining Home Ownership,0.0,1.0
+214,20080111,"Monetary Policy Flexibility, Risk Management, and Financial Disruptions",0.0,-1.0
+215,20080110,"Financial Markets, the Economic Outlook, and Monetary Policy",0.0,-1.0
+216,20080105,Recent and Prospective Developments in Monetary Policy Transparency and Communications:  A Global Perspective,0.0,0.0
+217,20080104,"Expertise and Macroeconomic Policy, Comments on ""Insiders versus Outsiders in Monetary Policy-Making,"" by Timothy Besley, Neil Meads, and Paolo Surico",0.0,0.0
+218,20091210,Envisioning a Future for Housing Finance,0.0,0.0
+219,20091209,Keys to Successful Neighborhood Stabilization,0.0,0.0
+220,20091207,Frequently Asked Questions,0.0,1.0
+221,20091116,Policy Challenges for the Federal Reserve,0.0,0.0
+222,20091116,On the Outlook for the Economy and Policy,0.0,0.0
+223,20091110,Supervising and Resolving Large Financial Institutions,0.0,-1.0
+224,20091109,Financial Regulation: Past and Future,0.0,0.0
+225,20091102,"Incentive Compensation, Risk Management, and Safety and Soundness",0.0,0.0
+226,20091023,International Perspective on the Crisis and Response,0.0,0.0
+227,20091023,Financial Regulation and Supervision after the Crisis: The Role of the Federal Reserve,0.0,0.0
+228,20091021,Confronting Too Big to Fail,0.0,1.0
+229,20091019,Asia and the Global Financial Crisis,0.0,1.0
+230,20091013,The Economic Outlook,0.0,0.0
+231,20091009,Monetary Policy Research and the Financial Crisis: Strengths and Shortcomings,0.0,-1.0
+232,20091008,The Federal Reserve's Balance Sheet: An Update,0.0,0.0
+233,20091008,In the Wake of the Crisis,0.0,0.0
+234,20090930,Central Bank Exit Policies,0.0,0.0
+235,20090925,"Longer Days, Fewer Weekends",0.0,0.0
+236,20090925,Brief Remarks,0.0,0.0
+237,20090821,Reflections on a Year of Crisis,0.0,0.0
+238,20090914,Regulatory Perspectives on the Changing Accounting Landscape,0.0,0.0
+239,20090910,"Comments on ""Interpreting the Unconventional U.S. Monetary Policy of 2007-2009""",0.0,0.0
+240,20090825,The Community Affairs Function at the Federal Reserve,0.0,0.0
+241,20090821,Bagehot's Dictum in Practice: Formulating and Implementing Policies to Combat the Financial Crisis,0.0,0.0
+242,20090821,Reflections on a Year of Crisis,0.0,0.0
+243,20090710,"Comments on ""Financial Intermediation and the Post-Crisis Financial System""",0.0,1.0
+244,20090709,Federal Reserve's Initiatives to Support Minority-Owned Institutions ,0.0,0.0
+245,20090626,Brief Remarks,0.0,0.0
+246,20090617,Community Development Financial Institutions: Challenges and Opportunities,0.0,0.0
+247,20090616,Defining Deviancy,0.0,0.0
+248,20090616,Containing the Crisis and Promoting Economic Recovery,0.0,0.0
+249,20090615,Large Banks and Small Banks in an Era of Systemic Risk Regulation,0.0,1.0
+250,20090610,The Systemic Importance of Consumer Protection,0.0,0.0
+251,20090608,Financial Regulation in the Wake of the Crisis,0.0,0.0
+252,20090604,Welcoming Remarks,0.0,0.0
+253,20090523,Interactions between Monetary and Fiscal Policy in the Current Situation,0.0,1.0
+254,20090522,Commencement address,0.0,1.0
+255,20090511,The Supervisory Capital Assessment Program,0.0,0.0
+256,20090507,Lessons of the Financial Crisis for Banking Supervision,0.0,0.0
+257,20090420,The Economic Outlook,0.0,-1.0
+258,20090418,Monetary Policy in the Financial Crisis,0.0,0.0
+259,20090417,Financial Innovation and Consumer Protection,0.0,0.0
+260,20090414,Four Questions about the Financial Crisis,0.0,1.0
+261,20090406,The Panic of 2008,0.0,1.0
+262,20090403,The Federal Reserve's Balance Sheet ,0.0,0.0
+263,20090403,Policies to Bring Us Out of the Financial Crisis and Recession,0.0,0.0
+264,20090330,A Framework for Analyzing Bank Lending,0.0,1.0
+265,20090320,The Financial Crisis and Community Banking,0.0,0.0
+266,20090310,Financial Reform to Address Systemic Risk,0.0,-1.0
+267,20090307,Brief Remarks,0.0,0.0
+268,20090224,CRA: A Framework for the Future,0.0,1.0
+269,20090218,Federal Reserve Policies to Ease Credit and Their Implications for the Fed's Balance Sheet,0.0,1.0
+270,20090216,Stabilizing the Housing Market: Focus on Communities,0.0,0.0
+271,20090211,Stabilizing the Housing Market:  Next Steps,0.0,-1.0
+272,20090113,The Crisis and the Policy Response,0.0,1.0
+273,20101202,Developments in the Landscape for Consumer Credit and Payments,0.0,1.0
+274,20101201,Fiscal Responsibility and Global Rebalancing,0.0,-1.0
+275,20101119,Emerging from the Crisis: Where Do We Stand?,0.0,1.0
+276,20101119,Rebalancing the Global Recovery,0.0,1.0
+277,20101112,Problems in the Mortgage Servicing Industry,0.0,1.0
+278,20101112,Next Steps in Financial Regulatory Reform,0.0,1.0
+279,20101108,Rejecting the Requiem,0.0,1.0
+280,20101025,Welcoming Remarks,0.0,1.0
+281,20101019,Come with Me to the FOMC,0.0,1.0
+282,20101019,Brief Remarks,0.0,1.0
+283,20101015,Monetary Policy Objectives and Tools in a Low-Inflation Environment,0.0,-1.0
+284,20101011,Macroprudential Supervision and Monetary Policy in the Post-crisis World,0.0,-1.0
+285,20101004,Fiscal Sustainability and Fiscal Rules,0.0,-1.0
+286,20100930,Welcoming Remarks,0.0,-1.0
+287,20100924, Implications of the Financial Crisis for Economics,0.0,-1.0
+288,20100924,Opening Remarks,0.0,-1.0
+289,20100917,"Comments on ""Regulating the Shadow Banking System""",0.0,-1.0
+290,20100901,Stabilizing Neighborhoods:  Lessons Learned from the Field,0.0,-1.0
+291,20100827,The Economic Outlook and Monetary Policy,0.0,0.0
+292,20100802,Challenges for the Economy and State Governments,0.0,-1.0
+293,20100715,Opening Remarks,0.0,1.0
+294,20100712,Small Business Credit: Next Steps,0.0,-1.0
+295,20100712,Restoring the Flow of Credit to Small Businesses,0.0,-1.0
+296,20100630,Fostering a Healthy Credit Environment,0.0,1.0
+297,20100628, It's Greek to Me,0.0,0.0
+298,20100616,"Remarks on ""The Squam Lake Report: Fixing the Financial System""",0.0,0.0
+299,20100609,Fostering Workforce Development,0.0,0.0
+300,20100608,Moving Beyond the Financial Crisis,0.0,0.0
+301,20100603,Brief Remarks,0.0,-1.0
+302,20100530,The Policy Response to the Crisis in Korea and Other Emerging Market Economies,0.0,0.0
+303,20100525,"Central Bank Independence, Transparency, and Accountability",0.0,0.0
+304,20100513,The Federal Reserve's Policy Actions during the Financial Crisis and Lessons for the Future,0.0,0.0
+305,20100511,Global Imbalances,0.0,-1.0
+306,20100508,The Economics of Happiness,0.0,0.0
+307,20100506,The Supervisory Capital Assessment Program--One Year Later,0.0,1.0
+308,20100501,Women and Money: Challenging the Myths,0.0,0.0
+309,20100427,Achieving Fiscal Sustainability,0.0,-1.0
+310,20100421,Brief Remarks,0.0,0.0
+311,20100419,Issues in Economic Development,0.0,0.0
+312,20100413,Fostering Financial Literacy,0.0,0.0
+313,20100413,Involving Markets and the Public in Financial Regulation,0.0,0.0
+314,20100408,Economic Policy:  Lessons from History,0.0,-1.0
+315,20100408,The Economic Outlook,0.0,-1.0
+316,20100408,The Present and Future of Community Banking,0.0,-1.0
+317,20100408,The Importance of Financial Education,0.0,-1.0
+318,20100407,"Economic Challenges: Past, Present, and Future",-1.0,0.0
+319,20100331,Restoring Credit to Communities,0.0,1.0
+320,20100326,Lessons from the Crisis Stress Tests,0.0,0.0
+321,20100326,An Ode to Independence,0.0,0.0
+322,20100324,Homework Assignments for Monetary Policymakers,0.0,1.0
+323,20100320,Preserving a Central Role for Community Banking,0.0,1.0
+324,20100318,Toward an Effective Resolution Regime for Large Financial Institutions,-1.0,0.0
+325,20100226,Financial Regulatory Reform,0.0,0.0
+326,20100218,Unusual and Exigent: My First Year at the Fed,0.0,0.0
+327,20100203,Swearing-In Ceremony Remarks,0.0,1.0
+328,20100203,Regulation and Its Discontents,0.0,1.0
+329,20100129,Focusing on Bank Interest Rate Risk Exposure,0.0,0.0
+330,20100104,The Economic Outlook,0.0,0.0
+331,20100103,Monetary Policy and the Housing Bubble,0.0,0.0
+332,20100103,"Monetary Policy in the Crisis: Past, Present, and Future",0.0,0.0
+333,20111129,Aggregate Demand and the Global Economic Recovery,0.0,0.0
+334,20111111,Pursuing Financial Stability at the Federal Reserve,0.0,0.0
+335,20111110,Town Hall Meeting Remarks,0.0,0.0
+336,20111109,The Evolution of Capital Regulation,0.0,0.0
+337,20111109,Welcoming Remarks,-1.0,0.0
+338,20111104,The International Agenda for Financial Regulation,0.0,-1.0
+339,20111022,The Federal Reserve System and Individual Financial Planning,0.0,-1.0
+340,20111021,The Outlook for the U.S. Economy and Economic Policy,0.0,-1.0
+341,20111020,"Unemployment, the Labor Market, and the Economy",0.0,-1.0
+342,20111018,The Effects of the Great Recession on Central Bank Doctrine and Practice,0.0,1.0
+343,20111004,Legal Opportunities and Challenges in Crafting a Foreclosure Response,0.0,1.0
+344,20110928,Lessons from Emerging Market Economies on the Sources of Sustained Growth,0.0,-1.0
+345,20110926,Monetary Policy and Job Creation,0.0,1.0
+346,20110915,Industrial Organization and Systemic Risk: An Agenda for Further Research,0.0,-1.0
+347,20110915,Opening Remarks,0.0,-1.0
+348,20110908,The U.S. Economic Outlook,0.0,0.0
+349,20110901,Rebalancing the Housing Market,0.0,1.0
+350,20110826,The Near- and Longer-Term Prospects for the U.S. Economy,0.0,1.0
+351,20110629,Economic and Financial Inclusion in 2011: What it Means for Americans and our Economic Recovery,0.0,1.0
+352,20110614,Fiscal Sustainability,0.0,-1.0
+353,20110609,Housing Market Developments and Their Effects on Low- and Moderate-Income Neighborhoods,0.0,1.0
+354,20110607,The U.S. Economic Outlook,0.0,1.0
+355,20110603,Regulating Systemically Important Financial Firms,0.0,0.0
+356,20110601,Assessing Potential Financial Imbalances in an Era of Accommodative Monetary Policy,0.0,0.0
+357,20110524,"Research, Policy, and the Future of Financial Education",0.0,0.0
+358,20110516,Promoting Research and Development: The Government's Role,0.0,1.0
+359,20110512,Brief remarks,0.0,1.0
+360,20110510,Fostering Innovation in Community Development Finance,0.0,1.0
+361,20110506,Reaping the Full Benefits of Financial Openness,0.0,1.0
+362,20110505,Implementing a Macroprudential Approach to Supervision and Regulation,0.0,1.0
+363,20110429,Community Development in Challenging Times,0.0,-1.0
+364,20110428,Community Voices: Promising Practices for Neighborhood Stabilization,-1.0,-1.0
+365,20110414,Small Business Credit Availability,0.0,-1.0
+366,20110411,"Commodity Prices, the Economic Outlook, and Monetary Policy",0.0,-1.0
+367,20110407,Community Bankers and Supervisors: Seeking Balance,0.0,-1.0
+368,20110404,"Clearinghouses, Financial Stability, and Financial Reform",1.0,1.0
+369,20110331,Regulating Systemic Risk,0.0,-1.0
+370,20110324,Changed Circumstances: The Impact of the Financial Crisis on the Economic Condition of Workers Near Retirement and of Business Owners,0.0,1.0
+371,20110323,Community Banking in a Period of Recovery and Change,0.0,0.0
+372,20110304,Improving the International Monetary and Financial System,0.0,0.0
+373,20110302,Challenges for State and Local Governments,-1.0,0.0
+374,20110225,Unconventional Monetary Policy and Central Bank Communications,0.0,0.0
+375,20110218,Global Imbalances: Links to Economic and Financial Stability,0.0,-1.0
+376,20110211,Putting the Low Road Behind Us,-1.0,0.0
+377,20110203,The Economic Outlook and Macroeconomic Policy,0.0,1.0
+378,20110202,From Community Banker to Central Banker--My Journey,0.0,1.0
+379,20110108,The Federal Reserve's Asset Purchase Program,0.0,0.0
+380,20110107,The Economic Outlook,0.0,0.0
+381,20121217,Dollar Funding and Global Banks,0.0,0.0
+382,20121204,Industry Structure and Systemic Risk Regulation,0.0,1.0
+383,20121130,Large-Scale Asset Purchases,0.0,1.0
+384,20121128,Regulation of Foreign Banking Organizations,0.0,1.0
+385,20121120,The Economic Recovery and Economic Policy,0.0,0.0
+386,20121115,Challenges in Housing and Mortgage Markets,0.0,-1.0
+387,20121113,Revolution and Evolution in Central Bank Communications,0.0,-1.0
+388,20121109,Community Banks and Mortgage Lending,0.0,-1.0
+389,20121014,U.S. Monetary Policy and International Implications,0.0,-1.0
+390,20121011,Evaluating Large-Scale Asset Purchases,1.0,-1.0
+391,20121011,Japan in the Global Economy II,0.0,-1.0
+392,20121010,Financial Stability Regulation,0.0,0.0
+393,20121005,Addressing Long-Term Vacant Properties to Support Neighborhood Stabilization,-1.0,-1.0
+394,20121001,Five Questions about the Federal Reserve and Monetary Policy,-1.0,1.0
+395,20120831,Monetary Policy since the Onset of the Crisis,0.0,-1.0
+396,20120807,Financial Education,0.0,-1.0
+397,20120806,Economic Measurement,-1.0,-1.0
+398,20120723,How Well Is Our Financial System Serving Us? Working Together to Find the High Road,0.0,0.0
+399,20120724,Early Childhood Education,-1.0,-1.0
+400,20120720,Central Bank Cooperation in Times of Crisis,0.0,0.0
+401,20120612,Shadow Banking After the Financial Crisis,0.0,1.0
+402,20120606,Perspectives on Monetary Policy,0.0,1.0
+403,20120515,Prescriptions for Housing Recovery,0.0,1.0
+404,20120510,Banks and Bank Lending: The State of Play,0.0,1.0
+405,20120502,Regulatory Reform since the Financial Crisis,1.0,-1.0
+406,20120413,Some Reflections on the Crisis and the Policy Response,0.0,1.0
+407,20120411,Downturns and Recoveries: What the Economies in Los Angeles and the United States Tell Us,0.0,1.0
+408,20120411,The Economic Outlook and Monetary Policy,0.0,1.0
+409,20120410,Developing Tools for Dynamic Capital Supervision,0.0,1.0
+410,20120409,Fostering Financial Stability,0.0,1.0
+411,20120327,Building Sustainable Communities,0.0,-1.0
+412,20120326,Recent Developments in the Labor Market,0.0,1.0
+413,20120323,Opening Remarks,0.0,0.0
+414,20120314,Community Banking,-1.0,-1.0
+415,20120301,Accommodative Monetary Policy and Its Effects on Savers,0.0,-1.0
+416,20120216,Community Banking,0.0,1.0
+417,20110210,Housing Markets in Transition,-1.0,-1.0
+418,20120116,From Community Banker to Central Banker--My Journey,1.0,0.0
+419,20120113,Opportunities to Reduce Regulatory Burden and Improve Credit Availability,0.0,0.0
+420,20120107,Creating and Implementing an Enforcement Response to the Foreclosure Crisis,0.0,-1.0
+421,20120106,Community Bank Examination and Supervision amid Economic Recovery,0.0,-1.0
+422,20120106,"Economic Developments, Risks to the Outlook, and Housing Market Policies",-1.0,-1.0
+423,20131216,Concluding Remarks,0.0,1.0
+424,20131216,Opening Remarks,0.0,1.0
+425,20131122,Shadow Banking and Systemic Risk Regulation,0.0,0.0
+426,20131121,OTC Market Infrastructure Reform:  Opportunities and Challenges,0.0,-1.0
+427,20131119,Communication and Monetary Policy,0.0,1.0
+428,20131114,40th Anniversary of the Annual Conference of the Union of Arab Banks,0.0,1.0
+429,20131113,Teaching and Learning about the Federal Reserve,-1.0,-1.0
+430,20131108,The Crisis as a Classic Financial Panic,0.0,-1.0
+431,20131107,The Fire-Sales Problem and Securities Financing Transactions,0.0,1.0
+432,20131104,Advanced Economy Monetary Policy and Emerging Market Economies,0.0,-1.0
+433,20131018,Toward Building a More Effective Resolution Regime: Progress and Challenges,0.0,-1.0
+434,20131018,"Lean, Clean, and In-Between",1.0,-1.0
+435,20131014,Celebrating 20 Years of the Bank of Mexico's Independence,0.0,-1.0
+436,20131011,Communications Challenges and Quantitative Easing,0.0,-1.0
+437,20131004,The Fire-Sales Problem and Securities Financing Transactions,1.0,0.0
+438,20131003,Community Banking: Connecting Research and Policy,0.0,1.0
+439,20131002,Brief Welcoming Remarks,0.0,1.0
+440,20130926,Yield-Oriented Investors and the Monetary Transmission Mechanism,0.0,0.0
+441,20130920,Macroprudential Regulation,0.0,-1.0
+442,20130717,Beyond Capital: The Case for a Harmonized Response to Asset Bubbles,-1.0,-1.0
+443,20130710,"A Century of U.S. Central Banking: Goals, Frameworks, Accountability",0.0,-1.0
+444,20130702,International Financial Regulatory Reform,1.0,1.0
+445,20130628,Comments on Monetary Policy,-1.0,-1.0
+446,20130627,Thoughts on Unconventional Monetary Policy,-1.0,-1.0
+447,20130606,Let's Move Forward: The Case for Timely Implementation of Revised Capital Rules,0.0,0.0
+448,20130602,Regulatory Landscapes: A U.S. Perspective,1.0,1.0
+449,20130602,The Ten Suggestions,0.0,1.0
+450,20130518,Economic Prospects for the Long Run,0.0,-1.0
+451,20130516,Prospects for a Stronger Recovery,-1.0,-1.0
+452,20130510,Monitoring the Financial System,0.0,-1.0
+453,20130509,A View from the Federal Reserve Board: The Mortgage Market and Housing Conditions,1.0,-1.0
+454,20130503,Evaluating Progress in Regulatory Reforms to Promote Financial Stability,0.0,-1.0
+455,20130419,Liquidity Regulation and Central Banking,0.0,1.0
+456,20130418,Aspects of Inequality in the Recent Business Cycle,-1.0,1.0
+457,20130417,Regulating Large Financial Institutions,-1.0,0.0
+458,20130416,"Panel Discussion on ""Monetary Policy: Many Targets, Many Instruments. Where Do We Stand?""",0.0,-1.0
+459,20130412,Creating Resilient Communities,-1.0,-1.0
+460,20130408,Stress Testing Banks: What Have We Learned?,-1.0,-1.0
+461,20130404,Communication in Monetary Policy,0.0,-1.0
+462,20130404,Financial and Economic Education,0.0,-1.0
+463,20130325,Monetary Policy and the Global Economy,1.0,1.0
+464,20130322,Focusing on Low- and Moderate-Income Working Americans,1.0,1.0
+465,20130308,Comments on Housing and Mortgage Markets,-1.0,1.0
+466,20130304,"Ending ""Too Big to Fail""",1.0,-1.0
+467,20130302,Challenges Confronting Monetary Policy,1.0,-1.0
+468,20130301,Long-Term Interest Rates,0.0,-1.0
+469,20130228,Reflections on Reputation and its Consequences,-1.0,0.0
+470,20130222,International Cooperation in Financial Regulation,-1.0,1.0
+471,20130221,"Discussion of ""Crunch Time: Fiscal Crises and the Role of Monetary Policy""",-1.0,1.0
+472,20130211,"A Painfully Slow Recovery for America's Workers: Causes, Implications, and the Federal Reserve's Response",0.0,0.0
+473,20130207,"Overheating in Credit Markets: Origins, Measurement, and Policy Responses",0.0,0.0
+474,20130205,The Future of Community Banking,1.0,1.0
+475,20130104,Interconnectedness and Systemic Risk:  Lessons from the Financial Crisis and Policy Implications,0.0,1.0
+476,20141203,The Federal Reserve's Financial Stability Agenda,0.0,1.0
+477,20141202,Opening Remarks,1.0,1.0
+478,20141120,Liquidity Regulation,0.0,-1.0
+479,20141114,"Monetary Policy Accommodation, Risk-Taking, and Spillovers",0.0,1.0
+480,20141107,A Tiered Approach to Regulation and Supervision of Community Banks,1.0,1.0
+481,20141107,"Remarks at the Panel Discussion on ""Shaping the Future of the Macroeconomic Policy Mix""",0.0,1.0
+482,20141106,A Financial System Perspective on Central Clearing of Derivatives,0.0,0.0
+483,20141030,Welcoming Remarks,0.0,0.0
+484,20141020,"Good Compliance, Not Mere Compliance",0.0,1.0
+485,20141020,Opening Remarks,1.0,1.0
+486,20141017,Perspectives on Inequality and Opportunity from the Survey of Consumer Finances,-1.0,1.0
+487,20141011,The Federal Reserve and the Global Economy,1.0,-1.0
+488,20140930,"Remarks on ""Government Debt Management at the Zero Lower Bound""",0.0,-1.0
+489,20140923,Introductory Remarks,1.0,1.0
+490,20140918,The Importance of Asset Building for Low and Middle Income Households,0.0,-1.0
+491,20140904,Reforming U.S. Dollar LIBOR:  The Path Forward,-1.0,1.0
+492,20140822,Labor Market Dynamics and Monetary Policy,-1.0,-1.0
+493,20140811,The Great Recession: Moving Ahead,0.0,0.0
+494,20140710,Financial Sector Reform: How Far Are We?,1.0,1.0
+495,20140702,Monetary Policy and Financial Stability,0.0,-1.0
+496,20140625,Stress Testing after Five Years,-1.0,-1.0
+497,20140609,Corporate Governance and Prudential Regulation,-1.0,-1.0
+498,20140606,A Conversation on Central Banking Issues,0.0,1.0
+499,20140521,Commencement Remarks,1.0,-1.0
+500,20140515,Small Businesses and the Recovery,1.0,1.0
+501,20140508,Rethinking the Aims of Prudential Regulation,1.0,1.0
+502,20140506,Challenges for Monetary Policy Communication,-1.0,0.0
+503,20140501,Tailored Supervision of Community Banks,1.0,1.0
+504,20140416,Monetary Policy and the Economic Recovery,-1.0,1.0
+505,20140415,Opening Remarks,-1.0,1.0
+506,20140409,Longer-Term Challenges for the American Economy,-1.0,-1.0
+507,20140331,What the Federal Reserve Is Doing to Promote a Stronger Job Market,1.0,1.0
+508,20140327,Regulating Large Foreign Banking Organizations,0.0,1.0
+509,20140325,Remarks on Women's History Month,1.0,0.0
+510,20140324,Welcoming Remarks,1.0,-1.0
+511,20140321,Incorporating Financial Stability Considerations into a Monetary Policy Framework,1.0,-1.0
+512,20140305,Remarks at the Ceremonial Swearing-in,0.0,1.0
+513,20140228,"Comments on ""Market Tantrums and Monetary Policy""",0.0,1.0
+514,20140225,Monetary Policy and Financial Stability,-1.0,-1.0
+515,20140103,"The Federal Reserve:  Looking Back, Looking Forward",1.0,-1.0
+516,20140103,Banks as Patient Debt Investors,1.0,-1.0
+517,20151203,Financial Stability and Shadow Banks: What We Don't Know Could Hurt Us,0.0,-1.0
+518,20151202,The Economic Outlook and Monetary Policy,-1.0,1.0
+519,20151202,Opening Remarks,1.0,1.0
+520,20151201,Normalizing Monetary Policy When the Neutral Interest Rate Is Low,-1.0,1.0
+521,20151120,Opening Remarks,1.0,-1.0
+522,20151119,Emerging Asia in Transition,-1.0,-1.0
+523,20151117,Thinking Critically about Nonbank Financial Intermediation,1.0,-1.0
+524,20151117,Central Clearing in an Interdependent World,1.0,-1.0
+525,20151112,The Transmission of Exchange Rate Changes to Output and Inflation,-1.0,-1.0
+526,20151112,Welcoming Remarks,-1.0,-1.0
+527,20151106,Unconventional Monetary Policy and Cross-Border Spillovers,1.0,1.0
+528,20151105,Shared Responsibility for the Regulation of International Banks,0.0,1.0
+529,20151104,Central Bank Independence,-1.0,1.0
+530,20151020,Brief Remarks,1.0,0.0
+531,20151020,The Evolving Structure of U.S. Treasury Markets,-1.0,0.0
+532,20151019,Identifying Opportunities for Reducing Regulatory Burdens on Community Banks,1.0,0.0
+533,20151012,Economic Outlook and Monetary Policy,-1.0,-1.0
+534,20151011,U.S. Economy and Monetary Policy,-1.0,-1.0
+535,20151002,Macroprudential Policy in the U.S. Economy,-1.0,1.0
+536,20150930,"Community Banks, Small Business Credit, and Online Lending",0.0,-1.0
+537,20150930,Welcoming Remarks,1.0,-1.0
+538,20150928,Capital Regulation Across Financial Intermediaries,-1.0,-1.0
+539,20150924,Inflation Dynamics and Monetary Policy,-1.0,0.0
+540,20150829,U.S. Inflation Developments,-1.0,1.0
+541,20150803,Structure and Liquidity in Treasury Markets,-1.0,1.0
+542,20150710,Recent Developments and the Outlook for the Economy,-1.0,-1.0
+543,20150709,Dodd-Frank at Five: Assessing Progress on Too Big to Fail,-1.0,1.0
+544,20150701,Recent Changes in the Resilience of Market Liquidity,1.0,-1.0
+545,20150630,Monetary Policy in the United States and in Developing Countries,1.0,-1.0
+546,20150625,Building a Safer Payment System,1.0,0.0
+547,20150624,Supervisory Stress Testing of Large Systemic Financial Institutions,-1.0,-1.0
+548,20150602,The U.S. Economic Outlook and Implications for Monetary Policy,-1.0,1.0
+549,20150601,What have we learned from the crises of the last 20 years?,0.0,1.0
+550,20150526,The Federal Reserve and the Global Economy,-1.0,0.0
+551,20150522,The Outlook for the Economy,-1.0,0.0
+552,20150521,"Past, Present, and Future Challenges for the Euro Area",1.0,0.0
+553,20150514,Regulation and Supervision of Community Banks,1.0,1.0
+554,20150506,Finance and Society,-1.0,1.0
+555,20150504,Opening Remarks,1.0,1.0
+556,20150430,Tailoring Community Bank Regulation and Supervision,1.0,1.0
+557,20150408,Remarks on Monetary Policy,-1.0,1.0
+558,20150402,Coming of Age in the Great Recession,-1.0,-1.0
+559,20150402,Opening Remarks,-1.0,-1.0
+560,20150330,"Nonbank Financial Intermediation, Financial Stability, and the Road Forward",-1.0,-1.0
+561,20150327,The Importance of the Nonbank Financial Sector,-1.0,-1.0
+562,20150327,Normalizing Monetary Policy:  Prospects and Perspectives,-1.0,-1.0
+563,20150323,Monetary Policy Lessons and the Way Ahead,1.0,1.0
+564,20150303,Improving the Oversight of Large Financial Institutions,1.0,1.0
+565,20150227,Conducting Monetary Policy with a Large Balance Sheet,1.0,1.0
+566,20150218,"Financial Institutions, Financial Markets, and Financial Stability",-1.0,-1.0
+567,20150209,"""Audit the Fed"" and Other Proposals",1.0,1.0
+568,20150204,Welcoming Remarks,1.0,1.0
+569,20150130,Advancing Macroprudential Policy Objectives,-1.0,1.0
+570,20150120,Comments on the Fair and Effective Markets Review,1.0,-1.0
+571,20161219,Commencement Remarks,-1.0,-1.0
+572,20161202,Financial Regulation Since the Crisis,1.0,-1.0
+573,20161202,The Opportunities and Challenges of Fintech,1.0,-1.0
+574,20161130,A View from the Fed,-1.0,1.0
+575,20161129,Recent Economic Developments and Longer-Run Challenges,-1.0,1.0
+576,20161121,Longer-Term Challenges for the U.S. Economy,1.0,1.0
+577,20161118,The Global Trade Slowdown and Its Implications for Emerging Asia,-1.0,0.0
+578,20161117,"The ""Gig"" Economy: Implications of the Growth of Contingent Work",1.0,0.0
+579,20161115,Is There a Liquidity Problem Post-Crisis?,-1.0,1.0
+580,20161111,U.S. Monetary Policy from an International Perspective,-1.0,1.0
+581,20161104,The Economic Outlook,1.0,1.0
+582,20161024,Opening Remarks on Government Securities Settlement,-1.0,1.0
+583,20161021,Pedagogy and Scholarship in a Post-Crisis World,-1.0,1.0
+584,20161017,Why Are Interest Rates So Low? Causes and Implications,1.0,-1.0
+585,20161014,Macroeconomic Research After the Crisis,-1.0,-1.0
+586,20161009,The U.S. Economy and Monetary Policy ,-1.0,1.0
+587,20161007,"Distributed Ledger Technology: Implications for Payments, Clearing, and Settlement",1.0,1.0
+588,20161005,Low Interest Rates,-1.0,1.0
+589,20160929,Brief Remarks,1.0,1.0
+590,20160929,Trends in Community Bank Performance over the Past 20 Years,1.0,1.0
+591,20160927,Why Study Economics?,-1.0,0.0
+592,20160926,Next Steps in the Evolution of Stress Testing,-1.0,-1.0
+593,20160912,"The ""New Normal"" and What It Means for Monetary Policy",1.0,1.0
+594,20160826,"The Federal Reserve's Monetary Policy Toolkit: Past, Present, and Future",-1.0,-1.0
+595,20160821,Remarks on the U.S. Economy,1.0,-1.0
+596,20160712,Opening Remarks,1.0,1.0
+597,20160628,"Recent Economic Developments, Monetary Policy Considerations and Longer-term Prospects",1.0,-1.0
+598,20160622,Comments on the Resolution Framework for Banks and Bank Holding Companies in the United States,1.0,-1.0
+599,20160621,Introductory Comments,1.0,-1.0
+600,20160606,Current Conditions and the Outlook for the U.S. Economy,1.0,-1.0
+601,20160603,The Economic Outlook and Implications for Monetary Policy,-1.0,-1.0
+602,20160526,"Recent Economic Developments, the Productive Potential of the Economy, and Monetary Policy",1.0,1.0
+603,20160520,Insurance Companies and the Role of the Federal Reserve,1.0,0.0
+604,20160519,"(Money), Interest and Prices: Patinkin and Woodford",1.0,1.0
+605,20160414,"The Use of Distributed Ledger Technologies in Payment, Clearing, and Settlement",1.0,-1.0
+606,20160329,"The Outlook, Uncertainty, and Monetary Policy",-1.0,-1.0
+607,20160307,"An Update on the Outlook, Liquidity, and Resilience",1.0,1.0
+608,20160307,Reflections on Macroeconomics Then and Now,1.0,1.0
+609,20160226,What Happened to the Great Divergence?,1.0,-1.0
+610,20160226,"Discussion of the paper ""Language after Liftoff: Fed Communication Away from the Zero Lower Bound""",1.0,-1.0
+611,20160223,Recent Monetary Policy Developments,1.0,-1.0
+612,20160210,The Lender of Last Resort Function in the United States,1.0,1.0
+613,20160201,Recent Monetary Policy,-1.0,-1.0
+614,20160103,"Monetary Policy, Financial Stability, and the Zero Lower Bound",1.0,-1.0
+615,20171213,Workforce Development in Today's Economy,-1.0,1.0
+616,20171130,Thoughts on Prudent Innovation in the Payment System,1.0,-1.0
+617,20171116,Where Do Consumers Fit in the Fintech Stack?,-1.0,0.0
+618,20171115,Regional Food Systems and Community Development,1.0,1.0
+619,20171107,Remarks accepting the 2017 Paul H. Douglas Award for Ethics in Government,1.0,1.0
+620,20171102,Introductory Remarks,1.0,-1.0
+621,20171020,A Challenging Decade and a Question for the Future,1.0,1.0
+622,20171018,Financial Innovation: A World in Transition,1.0,1.0
+623,20171015,The U.S. Economy and Monetary Policy,-1.0,1.0
+624,20171012,Rethinking Monetary Policy in a New Normal,-1.0,1.0
+625,20171012,Prospects for Emerging Market Economies in a Normalizing Global Economy,-1.0,1.0
+626,20171005,Treasury Markets and the TMPG,1.0,-1.0
+627,20171004,Welcoming Remarks,1.0,0.0
+628,20170928,The Independent Bank of England--20 Years On,1.0,1.0
+629,20170927,Labor Market Disparities and Economic Performance,1.0,1.0
+630,20170926,"Inflation, Uncertainty, and Monetary Policy",-1.0,1.0
+631,20170926,Why Persistent Employment Disparities Matter for the Economy's Health,1.0,1.0
+632,20170905,Understanding the Disconnect between Employment and Inflation with a Low Neutral Rate,-1.0,-1.0
+633,20170830,The Role of Boards at Large Financial Firms,1.0,-1.0
+634,20170825,Financial Stability a Decade after the Onset of the Crisis,-1.0,-1.0
+635,20170731,The Low Level of Global Real Interest Rates,-1.0,-1.0
+636,20170728,Strengthening Diversity in Economics,-1.0,0.0
+637,20170713,Cross-Border Spillovers of Balance Sheet Normalization,-1.0,-1.0
+638,20170711,Cross-Border Spillovers of Balance Sheet Normalization,-1.0,-1.0
+639,20170706,Government Policy and Labor Productivity,1.0,0.0
+640,20170706,The Case for Housing Finance Reform,-1.0,0.0
+641,20170627,An Assessment of Financial Stability in the United States,-1.0,1.0
+642,20170626,Remarks,1.0,1.0
+643,20170623,Central Clearing and Liquidity,-1.0,1.0
+644,20170620,Housing and Financial Stability,1.0,-1.0
+645,20170601,Thoughts on the Normalization of Monetary Policy,1.0,-1.0
+646,20170530,Navigating the Different Signals from Inflation and Unemployment,1.0,-1.0
+647,20170522,Why Opportunity and Inclusion Matter to Americaâs Economic Strength,1.0,1.0
+648,20170505,So We All Can Succeed: 125 Years of Women's Participation in the Economy,-1.0,1.0
+649,20170505,Committee Decisions and Monetary Policy Rules,1.0,1.0
+650,20170428,Where Do Banks Fit in the Fintech Stack?,-1.0,1.0
+651,20170420,Brief Remarks,1.0,1.0
+652,20170419, International Effects of Recent Policy Tightening,1.0,1.0
+653,20170417,Monetary Policy Expectations and Surprises,1.0,0.0
+654,20170405,Welcoming Remarks,1.0,1.0
+655,20170404,Departing Thoughts,-1.0,1.0
+656,20170328,America's Central Bank: The History and Structure of the Federal Reserve,1.0,-1.0
+657,20170328,Addressing Workforce Development Challenges in Low-Income Communities,1.0,-1.0
+658,20170323,Welcoming Remarks,1.0,0.0
+659,20170303,From Adding Accommodation to Scaling It Back,1.0,1.0
+660,20170303,"Monetary Policy: By Rule, By Committee, or By Both?",1.0,1.0
+661,20170303,"Innovation, Technology, and the Payments System",-1.0,1.0
+662,20170301,Transitions in the Outlook and Monetary Policy,-1.0,1.0
+663,20170222,The Economic Outlook and Monetary Policy,1.0,-1.0
+664,20170211,"""I'd Rather Have Bob Solow Than an Econometric Model, But ...""",1.0,1.0
+665,20170119,The Economic Outlook and the Conduct of Monetary Policy,1.0,-1.0
+666,20170119,Video,-1.0,-1.0
+667,20170118,The Goals of Monetary Policy and How We Pursue Them,1.0,-1.0
+668,20170118,Video,-1.0,-1.0
+669,20170117,Monetary Policy in a Time of Uncertainty,-1.0,1.0
+670,20170117,Video,1.0,1.0
+671,20170112,Welcoming Remarks,-1.0,1.0
+672,20170112,Video,1.0,1.0
+673,20170107,Low Interest Rates and the Financial System,1.0,-1.0
+674,20181207,Assessing Financial Stability over the Cycle,1.0,1.0
+675,20181206,Welcoming Remarks,1.0,1.0
+676,20181205,Banks as Vital Infrastructure for Rural Communities of the West,-1.0,0.0
+677,20181203,Celebrating Excellence in Community Development,1.0,-1.0
+678,20181203,Celebrating Excellence in Community Development,1.0,-1.0
+679,20181203,The Structure of the Treasury Market:  What Are We Learning?,-1.0,-1.0
+680,20181128,The Federal Reserve's Framework for Monitoring Financial Stability,-1.0,-1.0
+681,20181127,Data Dependence and U.S. Monetary Policy,1.0,-1.0
+682,20181116,Beginning Stress Testingâs New Chapter,1.0,0.0
+683,20181113,What Are We Learning about Artificial Intelligence in Financial Services?,-1.0,-1.0
+684,20181109,A New Chapter in Stress Testing,1.0,-1.0
+685,20181025,Outlook for the U.S. Economy and Monetary Policy,-1.0,0.0
+686,20181018,Donât Chase the Needles: An Optimistic Assessment of the Economic Outlook and Monetary Policy,1.0,0.0
+687,20181017,FinTech and the Search for Full Stack Financial Inclusion,-1.0,0.0
+688,20181015,Community Investment in Denver,1.0,1.0
+689,20181004,Trends in Urban and Rural Community Banks,1.0,0.0
+690,20181003,Supporting Fast Payments for All,-1.0,1.0
+691,20181002,Monetary Policy and Risk Management at a Time of Low Inflation and Low Unemployment,1.0,1.0
+692,20180927,Brief Remarks on the U.S. Economy,1.0,0.0
+693,20180912,What Do We Mean by Neutral and What Role Does It Play in Monetary Policy?,1.0,1.0
+694,20180824,Monetary Policy in a Changing Economy,1.0,1.0
+695,20180719,Introductory Remarks,-1.0,1.0
+696,20180718,Getting It Right: Factors for Tailoring Supervision and Regulation of Large Financial Institutions,1.0,1.0
+697,20180627,America's Vital Interest in Global Efforts to Promote Financial Stability,1.0,0.0
+698,20180620,Monetary Policy at a Time of Uncertainty and Tight Labor Markets,1.0,-1.0
+699,20180531,Sustaining Full Employment and Inflation around Target,-1.0,1.0
+700,20180525,Financial Stability and Central Bank Transparency,-1.0,-1.0
+701,20180518,Keeping Community at the Heart of the Community Reinvestment Act,1.0,-1.0
+702,20180516,Trust Everyone--But Brand Your Cattle: Finding the Right Balance in Cross-Border Resolution,-1.0,0.0
+703,20180515,"Cryptocurrencies, Digital Currencies, and Distributed Ledger Technologies: What Are We Learning?",1.0,0.0
+704,20180508,Monetary Policy Influences on Global Financial Conditions and International Capital Flows,1.0,0.0
+705,20180504,Liquidity Regulation and the Size of the Fed's Balance Sheet,1.0,1.0
+706,20180419,Safeguarding Financial Resilience through the Cycle,1.0,1.0
+707,20180417,Community Development in Baltimore and A Few Observations on Community Reinvestment Act Modernization,-1.0,1.0
+708,20180406,The Outlook for the U.S. Economy,1.0,0.0
+709,20180403,An Update on the Federal Reserve's Financial Stability Agenda,1.0,0.0
+710,20180326,The Roles of Consumer Protection and Small Business Access to Credit in Financial Inclusion,-1.0,-1.0
+711,20180306,Navigating Monetary Policy as Headwinds Shift to Tailwinds,-1.0,0.0
+712,20180305,The Federal Reserveâs Regulatory Agenda for Foreign Banking Organizations: What Lies Ahead for Enhanced Prudential Standards and the Volcker Rule,1.0,0.0
+713,20180226,Brief Thoughts on the Financial Regulatory System and Cybersecurity,1.0,0.0
+714,20180226,An Assessment of the U.S. Economy,-1.0,0.0
+715,20180222,The U.S. Economy after the Global Financial Crisis,1.0,-1.0
+716,20180213,Remarks at the Ceremonial Swearing-in,-1.0,0.0
+717,20180119,Early Observations on Improving the Effectiveness of Post-Crisis Regulation,1.0,0.0
+718,20190905,Refining the Stress Capital Buffer,-1.0,1.0
+719,20190904,Introductory Remarks,1.0,0.0
+720,20190823,Challenges for Monetary Policy,1.0,1.0
+721,20190820,A Decade of Building Stronger Communities,1.0,0.0
+722,20190805,Delivering Fast Payments for All,1.0,-1.0
+723,20190716,Monetary Policy in the Post-Crisis Era,1.0,-1.0
+724,20190711,Perspectives on the Economy from Scranton,-1.0,-1.0
+725,20190709,Stress Testing: A Decade of Continuity and Change,1.0,0.0
+726,20190709,Welcoming Remarks (via prerecorded video),1.0,0.0
+727,20190709,Video,0.0,0.0
+728,20190701,"The Federal Reserve's Review of Its Monetary Policy Strategy, Tools, and Communication Practices",-1.0,0.0
+729,20190625,Economic Outlook and Monetary Policy Review,-1.0,-1.0
+730,20190625,Minority Depository Institutions,1.0,-1.0
+731,20190621,Fed Listens in Cincinnati: How Does Monetary Policy Affect Your Community?,-1.0,0.0
+732,20190605,"The Federal Reserve's Review of Its Monetary Policy Strategy, Tools, and Communication Practices",1.0,1.0
+733,20190604,Opening Remarks,-1.0,-1.0
+734,20190603,The Next Stage in the LIBOR Transition (via prerecorded video),1.0,1.0
+735,20190530,Monetary Policy and Financial Stability,1.0,-1.0
+736,20190530,Sustaining Maximum Employment and Price Stability,-1.0,-1.0
+737,20190520,Business Debt and Our Dynamic Financial System,-1.0,0.0
+738,20190520,"The Federal Reserve's Review of Its Monetary Policy Strategy, Tools, and Communication Practices",1.0,0.0
+739,20190517,"The Federal Reserveâs Review of Its Monetary Policy Strategy, Tools, and Communication Practices",-1.0,0.0
+740,20190516,The Disconnect between Inflation and Employment in the New Normal,-1.0,1.0
+741,20190513,"The Federal Reserveâs Review of Its Monetary Policy Strategy, Tools, and Communication Practices",0.0,0.0
+742,20190510,Is the Middle Class within Reach for Middle-Income Families?,1.0,-1.0
+743,20190509,Welcoming Remarks,1.0,-1.0
+744,20190508,"""Fed Listens"" in Richmond: How Does Monetary Policy Affect Your Community?",1.0,-1.0
+745,20190503,"Models, Markets, and Monetary Policy",-1.0,0.0
+746,20190411,Community Banking in the Age of Innovation,1.0,1.0
+747,20190411,U.S. Economic Outlook and Monetary Policy,-1.0,1.0
+748,20190410,Progress on the Transition to Risk-Free Rates,1.0,1.0
+749,20190409,"The Federal Reserve's Review of Its Monetary Policy Strategy, Tools, and Communication Practices",0.0,0.0
+750,20190402,Fostering Closer Supervisory Communication,1.0,0.0
+751,20190402,The Financial Stability Board: Beyond the Fog of Battle,1.0,0.0
+752,20190329,Frameworks for the Countercyclical Capital Buffer ,1.0,1.0
+753,20190328,Agriculture and Community Banking,1.0,0.0
+754,20190328,Global Shocks and the U.S. Economy,1.0,0.0
+755,20190328,The Financial Stability Board in 2019,0.0,0.0
+756,20190325,Welcoming Remarks,1.0,0.0
+757,20190312,The Community Reinvestment Act: How Can We Preserve What Works and Make it Better?,-1.0,-1.0
+758,20190311,Brief Remarks,-1.0,-1.0
+759,20190308,Monetary Policy: Normalization and the Road Ahead,-1.0,-1.0
+760,20190307,Navigating Cautiously,-1.0,-1.0
+761,20190228,Recent Economic Developments and Longer-Term Challenges,1.0,0.0
+762,20190228,U.S. Economic Outlook and Monetary Policy,1.0,0.0
+763,20190223,Is Economics for Me? Increasing the Participation of Black Women in Economics,0.0,0.0
+764,20190222,The Future of the Federal Reserve's Balance Sheet,1.0,0.0
+765,20190222,"The Federal Reserve's Review of Its Monetary Policy Strategy, Tools, and Communication Practices",0.0,0.0
+766,20190212,Encouraging Economic Development in High-Poverty Rural Communities,1.0,-1.0
+767,20190211,A Conversation on Community Banking,1.0,0.0
+768,20190210,Ideas of Order: Charting a Course for the Financial Stability Board,-1.0,1.0
+769,20190206,Welcoming Remarks,1.0,0.0
+770,20190206,Inviting Participation: The Public's Role in Stress Testing's Next Chapter,-1.0,0.0
+771,20190201,Strengthening the Community Reinvestment Act: What Are We Learning?,1.0,0.0
+772,20190110,Monetary Policy Outlook for 2019,0.0,0.0
+773,20190109,Insurance Supervision and International Engagement,1.0,0.0

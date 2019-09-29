@@ -13,8 +13,12 @@ def rolling_test(model, X, y, train_count, evaluate_func=default_evaluate):
 
     def _task(args):
         model, X_train_mat, y_train_mat, X_test_mat = args
-        model.fit(X_train_mat, y_train_mat)
-        return model.predict(X_train_mat), model.predict(X_test_mat)
+
+        try:
+            model.fit(X_train_mat, y_train_mat)
+            return model.predict(X_train_mat), model.predict(X_test_mat)
+        except:
+            return np.ones_like(y) * np.nan
 
     rst_lst = _Pool.map(_task, ((deepcopy(model), X[i - train_count:i, :], y[i - train_count:i], X[i, :].reshape(1, -1)) for i in range(train_count, len(y))))
 
