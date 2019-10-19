@@ -17,10 +17,10 @@ def rolling_test(model, X, y, train_count, evaluate_func=default_evaluate):
         try:
             model, X_train_mat, y_train_mat, X_test_mat = args
 
-            cl_model = Birch(n_clusters=5)
-            X_train_mat = np.hstack((X_train_mat, cl_model.fit_predict(X_train_mat).reshape(-1, 1)))
-            X_test_mat = np.hstack((X_test_mat, cl_model.predict(X_test_mat).reshape(-1, 1)))
-            del cl_model
+            #cl_model = Birch(n_clusters=5)
+            #X_train_mat = np.hstack((X_train_mat, cl_model.fit_predict(X_train_mat).reshape(-1, 1)))
+            #X_test_mat = np.hstack((X_test_mat, cl_model.predict(X_test_mat).reshape(-1, 1)))
+            #del cl_model
 
             model.fit(X_train_mat, y_train_mat)
             
