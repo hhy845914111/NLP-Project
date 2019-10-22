@@ -1,96 +1,175 @@
 
 # coding: utf-8
 
-# In[7]:
+# In[1]:
 
 
 from naive_bayes_classifier.load_data import str2word_bag
 from naive_bayes_classifier.configure import *
 from back_test import *
 from utils import *
-import pickle
+from tqdm import tqdm
 
 
-# In[8]:
+# In[2]:
 
 
 import gensim
 
 
-# In[9]:
+# In[3]:
 
 
 from functools import reduce
+from itertools import groupby
 
 
-# In[10]:
+# In[4]:
 
 
 rate_se, rst_lst = load_data()
 
 
-# In[11]:
+# In[5]:
 
 
-def str2article(orig_str):
-    for c in STOP_CHARS:
-        orig_str = orig_str.replace(c, "")
-            
-    wd_lst = orig_str.lower().split(" ")
-
-    for swd in STOP_WORDS:
-        try:
-            wd_lst = list(filter(lambda x: x!= swd, wd_lst))
-        except ValueError:
-            pass
-
+def str2sentence(orig_str):
+    sen_lst = orig_str.split(".")
+    
+    rst_lst = []
+    for sentence in sen_lst:
+        wd_lst = sentence.lower().split(" ")
         
-    return wd_lst 
+        for c in STOP_CHARS:
+            sentence = sentence.replace(c, "")
+        
+        for swd in STOP_WORDS:
+            try:
+                wd_lst = list(filter(lambda x: x!= swd, wd_lst))
+            except ValueError:
+                pass
+            
+        sentence2 = " ".join(wd_lst)
+            
+        if sentence2 != "":
+            rst_lst.append(sentence2.strip())
+    
+    return rst_lst
 
 
-# In[ ]:
+# sen_by_atc_lst = [(i, str2sentence(ctt[2])) for i, ctt in enumerate(rst_lst)]
+# sen_lst = reduce(lambda x, y: x + y, [ctt[1] for ctt in sen_by_atc_lst])
+
+# In[6]:
 
 
-#sen_by_atc_lst = [(i, str2sentence(ctt[2])) for i, ctt in enumerate(rst_lst)]
-#sen_lst = reduce(lambda x, y: x + y, [ctt[1] for ctt in sen_by_atc_lst])
-
-with open("atc_lst", "rb") as fp:
-    atc_lst = pickle.load(fp)
-
-# In[ ]:
+import pickle
 
 
-def get_X_train(atc_lst):
+# with open("sen_lst", "wb") as fp:
+#     pickle.dump(sen_lst, fp)
+#     
+# with open("sen_by_atc_lst", "wb") as fp:
+#     pickle.dump(sen_by_atc_lst, fp)
+
+# In[7]:
+
+
+with open("sen_lst", "rb") as fp:
+    sen_lst = pickle.load(fp)
+    
+with open("sen_by_atc_lst", "rb") as fp:
+    sen_by_atc_lst = pickle.load(fp)
+
+
+# In[8]:
+
+
+def get_X_train(sen_lst):
     X_train = []
-    for i, atc in enumerate(atc_lst):
-        document = gensim.models.doc2vec.TaggedDocument(atc, tags=[i]) 
+    for i, sentence in enumerate(sen_lst):
+        word_lst = sentence.split(" ")
+        document = gensim.models.doc2vec.TaggedDocument(word_lst, tags=[i]) 
         X_train.append(document)
     return X_train
 
 
+# In[9]:
+
+
+X_train = get_X_train(sen_lst)
+
+
+
+with open("atc_lst", "rb") as fp:
+    atc_lst = pickle.load(fp)
+
+
+
+model = gensim.models.doc2vec.Doc2Vec.load("d2v.pymdl")
+
+
+
+def doc2vec_backtest(rst_lst, embedding_model=gensim.models.doc2vec.Doc2Vec.load("d2v_no_train.pymdl"), batch_count=10):
+    n_samples = len(rst_lst) // batch_count    
+    
+    X_train_vec_lst = []
+    X_test_vec_lst = []
+    
+    for b_id in tqdm(range(batch_count - 2)):
+        print("create X")
+        this_X_train = [get_X_train(str2sentence(ctt[2])) for ctt in rst_lst[b_id*n_samples : (b_id+1)*n_samples]]
+        print("X created")
+        
+        print("training")
+        model.train(reduce(lambda x, y: x+y, this_X_train), total_examples=n_samples, epochs=500)
+        print("train done")
+    
+        # get train vec rep
+        print("predicting insample")
+        this_X_train_vec = np.zeros((len(this_X_train), 100))
+        for a_id, atc in enumerate(this_X_train):
+            this_atc_vec = np.zeros((1, 100))
+            
+            for sentence in atc:
+                this_atc_vec += model.infer_vector(sentence[0])
+            
+            this_X_train_vec[a_id, :] = this_atc_vec / len(atc)
+        
+        X_train_vec_lst.append(this_X_train_vec)
+        print("prediction done")
+        
+        # get test vec rep
+        print("predicting out sample")
+        this_X_test = [get_X_train(str2sentence(ctt[2])) for ctt in rst_lst[(b_id+1)*n_samples : (b_id+2)*n_samples]]
+
+        this_X_test_vec = np.zeros((len(this_X_test), 100))
+        for a_id, atc in enumerate(this_X_test):
+            this_atc_vec = np.zeros((1, 100))
+            
+            for sentence in atc:
+                this_atc_vec += model.infer_vector(sentence[0])
+            
+            this_X_test_vec[a_id, :] = this_atc_vec / len(atc)
+        
+        X_test_vec_lst.append(this_X_test_vec)
+        print("prediction done")
+        
+    return X_train_vec_lst, X_test_vec_lst
+
+
 # In[ ]:
 
 
-X_train = get_X_train(atc_lst)
+X_train_vec_lst, X_test_vec_lst = doc2vec_backtest(rst_lst)
 
 
 # In[ ]:
 
-try:
-    model = gensim.models.doc2vec.Doc2Vec.load("d2v_no_train.pymdl")
-except:
-    model = gensim.models.doc2vec.Doc2Vec(X_train, min_coun=1, window=3, workers=16)
-    model.save("d2v_no_train.pymdl")
 
-# In[ ]:
-
-
-tt = input("train?")
-model.train(X_train, total_examples=model.corpus_count, epochs=500)
-print("train done")
-
-# In[ ]:
-
-
-model.save("d2v.pymdl")
+with open("X_train_vec_lst", "wb") as fp:
+    pickle.dump(X_train_vec_lst, fp)
+    
+with open("X_test_vec_lst", "wb") as fp:
+    pickle.dump(X_test_vec_lst, fp)
 
